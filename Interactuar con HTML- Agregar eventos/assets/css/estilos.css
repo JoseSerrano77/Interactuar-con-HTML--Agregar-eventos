@@ -1,0 +1,125 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+#tituloPrincipal {
+    color: green;
+}
+
+/*container Productos:*/
+/* .productosEstilos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 30px;
+} */
+.card {
+    margin-bottom: 50px;
+    align-items: center;
+    padding-right: 0;
+
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+}
+
+.precio {
+    display: flex;
+    justify-content: center;
+}
+
+.tipoCerv {
+    display: flex;
+    justify-content: center;
+}
+
+
+#tituloH1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #198754;
+    /* color:#212529; */
+    font-size: 70px;
+
+
+}
+
+#productos {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.fondo {
+    /* background-color: #198754; */
+    background-color: hsla(0, 3%, 6%, 0.753);
+    background-image: url(../img/Fondos\ de\ pantalla\ -\ Cerveza\ HD.jpg);
+    background-size: cover;
+}
+
+/* .img-fluid:hover{
+    transform: scale(1.1);
+    transition: 500ms; 
+} */
+#buscarCervezaBtn {
+    display: inline-block;
+    justify-content: center;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #0f7214;
+    border-color: #0f7214;
+    color: aliceblue;
+}
+
+.buscarCatalogo {
+
+    display: flex;
+    justify-content: end;
+    /* padding-right: 50px; */
+    margin-right: 20px;
+    
+
+}
+
+.buscarCerv {
+
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.BtnCat {
+    display: flex;
+   
+}
+
+.textCerveza {
+    margin-top: 1px;
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    /* background-color:#0f7214;
+    border-color: #0f7214; */
+    color: aliceblue;
+}
+
+.gridBuscar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 30px;
+
+}
+
